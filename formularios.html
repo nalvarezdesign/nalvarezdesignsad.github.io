@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+  <title>Nicolas Alvarez</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/maindonaciones.css">
+  <script src="https://kit.fontawesome.com/582d2fe494.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ===== SECTION NAVBAR ===== -->
+
+<header>
+<nav>
+  <div class="logo-container">
+    <a href="index.html" class="logo"><img class="logo" src="images/logo.png" alt="logo" class="footerlogo"></a>
+  </div>
+  <input type="checkbox" id="check">
+<label for="check" class="hamburger-btn">
+  <i class="fa-solid fa-bars"></i>
+</label>
+              <ul class="nav-list">
+                  <li class="active"><a href="#">Quienes Somos</a></li>
+                  <li><a href="informe.html">Informes</a></li>
+                  <li><a href="#">Juicios</a></li>
+                  <li><a href="denunciar.html">Buzon de denuncias</a></li>
+                  <li><a href="historia.html">Historia</a></li>
+                  <li><a href="#">Adriana Calvo</a></li>
+                  <li><a href="donaciones.html">Donaciones</a></li>
+              </ul>
+          </nav>
+        </header>
+
+  <!-- Formulario-->
+
+  <section class="gracias">
+  <form class="my-form">
+    <div class="containerform">
+      <h1 class="titleform">DENUNCIAR</h1>
+      <ul>
+        <li>
+          <select>
+            <option selected disabled>-- Seleccionar tipo de denuncia --</option>
+            <option>Denunciar en anonimo</option>
+            <option>Denunciar Publicamente</option>
+            <option>Otro</option>      
+          </select>
+        </li>
+        <li>
+          <div class="grid grid-2">
+            <input type="text" placeholder="Nombre" required>  
+            <input type="text" placeholder="Asunto" required>
+          </div>
+        </li>
+        <li>
+          <div class="grid grid-2">
+            <input type="email" placeholder="Email" required>  
+            <input type="tel" placeholder="Telefono">
+          </div>
+        </li>    
+        <li>
+          <textarea placeholder="Mensaje"></textarea>
+        </li>   
+        <li>
+          <input type="checkbox" id="terms">
+          <label for="terms">Lei y estoy de acuerdo <a href="">con los terminos y condiciones</a></label>
+        </li>  
+        <li>
+          <div class="grid grid-3">
+            <div class="required-msg">REQUIRED FIELDS</div>
+            <button class="btn-grid" type="submit" disabled>
+              <span class="back">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+              </span>
+              <a href="graciasdenuncias.html"><span class="front">Enviar</span></a>
+            </button>
+            <button class="btn-grid" type="reset" disabled>
+              <span class="back">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+              </span>
+              <span class="front">Borrar</span>
+            </button> 
+          </div>
+        </li>    
+      </ul>
+    </div>
+  </form>
+</section>
+
+  <!-- ===== SECTION FOOTER ===== -->
+  <section class="footer">
+    <div class="footerContainer">
+      <div class="footerBox boxOne">
+        <img src="images/logo.png" alt="logo" class="footerlogo">
+      </div>
+
+      <div class="footerBox boxTwo">
+        <img src="images/redes sociales 3.png" class="footerSocial" />
+        <img src="images/redes sociales 8.png" class="footerSocial" />
+        <img src="images/redes sociales 9.png" class="footerSocial" />
+      </div>
+          
+      <div class="footerBox boxThree">
+        <p>© Grupo 9, Diseño Multiumedia II, UADE</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Js -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js'></script><script  src="./js/script.js"></script>
+
+</body>
+</html>

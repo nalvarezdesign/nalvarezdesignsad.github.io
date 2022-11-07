@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+  <title>Nicolas Alvarez</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://kit.fontawesome.com/582d2fe494.js" crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+ 
+</head>
+<body>
+
+<!-- ===== SECTION NAVBAR ===== -->
+
+<header>
+<nav>
+  <div class="logo-container">
+  <a href="#" class="logo"><img class="logo" src="images/logo.png" alt="logo" class="footerlogo"></a>
+  </div>
+  <input type="checkbox" id="check">
+<label for="check" class="hamburger-btn">
+  <i class="fa-solid fa-bars"></i>
+</label>
+              <ul class="nav-list">
+                  <li class="active"><a href="#">Quienes Somos</a></li>
+                  <li><a href="informe.html">Informes</a></li>
+                  <li><a href="#">Juicios</a></li>
+                  <li><a href="denunciar.html">Buzon de denuncias</a></li>
+                  <li><a href="historia.html">Historia</a></li>
+                  <li><a href="#">Adriana Calvo</a></li>
+                  <li><a href="donaciones.html">Donaciones</a></li>
+              </ul>
+          </nav>
+        </header>
+<!-- ===== SECTION HOME parte1 ===== -->
+<div class="container-home1">
+  <img src="images/home_tablet_phone.png" class="img1">
+    <div class="titulo"><h1 class="titulo1">ASOCIACION DE EX DETENIDOS DESAPARECIDOS</h1> <br>
+      <h4 class="titulo1">Porque luchabamos nos desaparecieron. Porque aparecimos seguimos luchando.</h4>
+      <div class="button"> SABER MAS</div>
+  </div>
+  </div>
+  <div class="ultimas"> ULTIMAS NOTICIAS</div>
+
+  <!-- Slider  -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+<!-- ===== SECTION mapa ===== -->
+<div class="encontranos"><H1> ENCONTRANOS</H1></div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3623034804536!2d-58.393385884236444!3d-34.62028356588302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadf7e6aac57%3A0x823ea03419fa2e00!2sCarlos%20Calvo%201780%2C%20C1102ABJ%20CABA!5e0!3m2!1ses-419!2sar!4v1667775298550!5m2!1ses-419!2sar"
+width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- ===== SECTION FOOTER ===== -->
+  <section class="footer">
+    <div class="footerContainer">
+      <div class="footerBox boxOne">
+        <img src="images/logo.png" alt="logo" class="footerlogo">
+      </div>
+
+      <div class="footerBox boxTwo">
+        <img src="images/redes sociales 3.png" class="footerSocial" />
+        <img src="images/redes sociales 8.png" class="footerSocial" />
+        <img src="images/redes sociales 9.png" class="footerSocial" />
+      </div>
+          
+      <div class="footerBox boxThree">
+        <p>© Grupo 9, Diseño Multiumedia II, UADE</p>
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>const swiper = new Swiper('.swiper', {autoplay: true,navigation: {    
+    nextEl: ".swiper-button-next",    prevEl: ".swiper-button-prev",},});</script>
+</body>
+</html>
